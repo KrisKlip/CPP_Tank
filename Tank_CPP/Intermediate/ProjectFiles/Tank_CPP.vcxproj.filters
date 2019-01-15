@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tank_CPP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5783D493-755A-4647-B752-965D313758E3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tank_CPP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Tank_CPPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D5C00F33-0022-40EC-B726-58F5DC07CB96}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tank_CPP">
+      <UniqueIdentifier>{ACB97223-428C-4962-874A-3F7FF9962690}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tank_CPP\TankPlayerController.cpp">
+      <Filter>Source\Tank_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tank_CPP\TankPlayerController.h">
+      <Filter>Source\Tank_CPP</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Tank_CPP\Tank_CPP.Build.cs">
+      <Filter>Source\Tank_CPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tank_CPP\Tank_CPP.cpp">
+      <Filter>Source\Tank_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tank_CPP\Tank_CPP.h">
+      <Filter>Source\Tank_CPP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Tank_CPP\Public">
+      <UniqueIdentifier>{97f21646-20e7-413b-8a0e-1ffe044d066a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tank_CPP\Private">
+      <UniqueIdentifier>{d883f579-eedb-4609-840e-fd178bf6bd8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\Tank.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAIController.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimingComponent.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimComponent.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankBarrel.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\Tank.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAIController.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimingComponent.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimComponent.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankBarrel.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

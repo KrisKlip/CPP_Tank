@@ -1,0 +1,69 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Projects\CPP_Tank).
+  Creating makefile for Tank_CPPEditor (no existing makefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for Tank_CPPEditor
+    Running UnrealHeaderTool "E:\Unreal Projects\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Tank_CPPEditor in 11.8498292 seconds
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2032.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2032.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2089.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2089.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2338.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2338.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2484.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2484.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2941.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-2941.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3008.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3008.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3554.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3554.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-4377.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-4377.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5822.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5822.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5934.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5934.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5961.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-5961.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-6058.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-6058.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-6818.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-6818.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-698.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-698.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-755.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-755.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7771.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7771.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7805.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7805.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7885.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-7885.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-8610.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-8610.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-8673.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-8673.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-900.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-900.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-9048.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-9048.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-9592.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-9592.pdb".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-976.dll".
+  Deleting old hot reload file: "E:\Unreal Projects\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-976.pdb".
+  Building 10 actions with 12 processes...
+    [1/10] TankAimComponent.cpp
+    [2/10] Tank.cpp
+    [3/10] TankPlayerController.cpp
+    [4/10] TankPlayerController.gen.cpp
+    [5/10] TankAimComponent.gen.cpp
+    [6/10] Tank.gen.cpp
+    [7/10] TankAIController.cpp
+    [8/10] TankAIController.gen.cpp
+    [9/10] UE4Editor-Tank_CPP.lib
+       Creating library E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP.lib and object E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP.exp
+    [10/10] UE4Editor-Tank_CPP.dll
+       Creating library E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP.suppressed.lib and object E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP.suppressed.exp
+  Deploying Tank_CPPEditor Win64 Development...
+  Total build time: 19.85 seconds (Parallel executor: 2.43 seconds)
