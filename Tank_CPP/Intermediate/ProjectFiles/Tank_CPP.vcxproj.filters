@@ -81,4 +81,14 @@
       <Filter>Source\Tank_CPP\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankTurret.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankTurret.cpp">
+      <Filter>Source\Tank_CPP\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

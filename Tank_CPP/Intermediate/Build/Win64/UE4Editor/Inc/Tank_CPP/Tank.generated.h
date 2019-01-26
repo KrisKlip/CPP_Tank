@@ -8,13 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UTankTurret;
 class UTankBarrel;
 #ifdef TANK_CPP_Tank_generated_h
 #error "Tank.generated.h already included, missing '#pragma once' in Tank.h"
 #endif
 #define TANK_CPP_Tank_generated_h
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_RPC_WRAPPERS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetTurretReference) \
+	{ \
+		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTurretReference(Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetBarrelReference) \
 	{ \
@@ -26,7 +36,16 @@ class UTankBarrel;
 	}
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetTurretReference) \
+	{ \
+		P_GET_OBJECT(UTankTurret,Z_Param_TurretToSet); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetTurretReference(Z_Param_TurretToSet); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetBarrelReference) \
 	{ \
@@ -38,7 +57,7 @@ class UTankBarrel;
 	}
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_INCLASS_NO_PURE_DECLS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
 	friend struct Z_Construct_UClass_ATank_Statics; \
@@ -47,7 +66,7 @@ public: \
 	DECLARE_SERIALIZER(ATank)
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_INCLASS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesATank(); \
 	friend struct Z_Construct_UClass_ATank_Statics; \
@@ -56,7 +75,7 @@ public: \
 	DECLARE_SERIALIZER(ATank)
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_STANDARD_CONSTRUCTORS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATank(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATank) \
@@ -69,7 +88,7 @@ private: \
 public:
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_ENHANCED_CONSTRUCTORS \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATank(ATank&&); \
@@ -80,29 +99,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATank); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATank)
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__LaunchSpeed() { return STRUCT_OFFSET(ATank, LaunchSpeed); }
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_12_PROLOG
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_GENERATED_BODY_LEGACY \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_13_PROLOG
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_RPC_WRAPPERS \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_INCLASS \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_STANDARD_CONSTRUCTORS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_RPC_WRAPPERS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_INCLASS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_GENERATED_BODY \
+#define Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_INCLASS_NO_PURE_DECLS \
-	Tank_CPP_Source_Tank_CPP_Public_Tank_h_15_ENHANCED_CONSTRUCTORS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_PRIVATE_PROPERTY_OFFSET \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_INCLASS_NO_PURE_DECLS \
+	Tank_CPP_Source_Tank_CPP_Public_Tank_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

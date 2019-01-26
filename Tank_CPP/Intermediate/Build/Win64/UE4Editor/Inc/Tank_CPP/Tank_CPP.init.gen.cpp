@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeTank_CPP_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Tank_CPP",
 				PKG_CompiledIn | 0x00000000,
-				0xA80C85B9,
-				0xC2C0648E,
+				0xEA05B3D8,
+				0x6A3EB2AC,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
