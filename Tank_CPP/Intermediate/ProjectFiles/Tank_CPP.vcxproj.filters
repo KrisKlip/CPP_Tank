@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tank_CPP.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5783D493-755A-4647-B752-965D313758E3}</UniqueIdentifier>
+      <UniqueIdentifier>{ED2D72F6-F073-4676-B8B7-73705F01F334}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tank_CPP.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D5C00F33-0022-40EC-B726-58F5DC07CB96}</UniqueIdentifier>
+      <UniqueIdentifier>{C5DE902D-F3DA-4DF3-887E-44795495067E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tank_CPP">
-      <UniqueIdentifier>{ACB97223-428C-4962-874A-3F7FF9962690}</UniqueIdentifier>
+      <UniqueIdentifier>{8AD6997B-697B-4C60-93DD-37E3F618C7BD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Tank_CPP\TankPlayerController.cpp">
       <Filter>Source\Tank_CPP</Filter>
@@ -44,47 +44,41 @@
     <ClInclude Include="..\..\Source\Tank_CPP\Tank_CPP.h">
       <Filter>Source\Tank_CPP</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\Tank_CPP\Public">
-      <UniqueIdentifier>{97f21646-20e7-413b-8a0e-1ffe044d066a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\Tank_CPP\Private">
-      <UniqueIdentifier>{d883f579-eedb-4609-840e-fd178bf6bd8e}</UniqueIdentifier>
+      <UniqueIdentifier>{61A6303F-504F-4AD6-9D67-BDA20A27A9EF}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Tank_CPP\Public\Tank.h">
-      <Filter>Source\Tank_CPP\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAIController.h">
-      <Filter>Source\Tank_CPP\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimingComponent.h">
-      <Filter>Source\Tank_CPP\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimComponent.h">
-      <Filter>Source\Tank_CPP\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankBarrel.h">
-      <Filter>Source\Tank_CPP\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\Tank_CPP\Private\Tank.cpp">
       <Filter>Source\Tank_CPP\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAIController.cpp">
       <Filter>Source\Tank_CPP\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimingComponent.cpp">
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimComponent.cpp">
       <Filter>Source\Tank_CPP\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimComponent.cpp">
+    <ClCompile Include="..\..\Source\Tank_CPP\Private\TankAimingComponent.cpp">
       <Filter>Source\Tank_CPP\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Tank_CPP\Private\TankBarrel.cpp">
       <Filter>Source\Tank_CPP\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\Tank_CPP\Public">
+      <UniqueIdentifier>{6B600767-F0EA-4849-A4F1-E1E4672979E3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\Tank.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAIController.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimComponent.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankAimingComponent.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tank_CPP\Public\TankBarrel.h">
+      <Filter>Source\Tank_CPP\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

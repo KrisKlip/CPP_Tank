@@ -24,7 +24,7 @@
 /wd4838
 /we4668
 /I .
-/I "E:\Unreal Projects\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private"
+/I C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -413,22 +413,22 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Inc\Tank_CPP"
-/I "E:\Unreal Projects\CPP_Tank\Tank_CPP\Source"
-/I "E:\Unreal Projects\CPP_Tank\Tank_CPP\Source\Tank_CPP\Public"
-/I "E:\Unreal Projects\CPP_Tank\Tank_CPP\Source\Tank_CPP"
+/I C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Inc\Tank_CPP
+/I C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source
+/I C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Public
+/I C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Unreal Projects\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private\TankAIController.cpp"
-/FI"E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\Definitions.Tank_CPP.h"
-/Fo"E:\Unreal Projects\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\TankAIController.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private\TankAIController.cpp"
+/FI"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\Definitions.Tank_CPP.h"
+/Fo"C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\TankAIController.cpp.obj"
 /TP
 /GR-
 /W4

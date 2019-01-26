@@ -19,15 +19,9 @@ void UTankAimComponent::SetBarrelReference(UTankBarrel* BarrelToSet)
 	Barrel = BarrelToSet;
 }
 
-void UTankAimComponent::AimAt(FVector OutHitLocation, float LaunchSpeed)
+void UTankAimComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 {
-	
-	if (!Barrel) {
-		return;
-	}
-
-	auto OurTankName = GetOwner()->GetName();
-	auto BarrelLocation = Barrel->GetComponentLocation();
+	if (!ensure(Barrel)) { return; }
 
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
@@ -36,32 +30,31 @@ void UTankAimComponent::AimAt(FVector OutHitLocation, float LaunchSpeed)
 		this,
 		OutLaunchVelocity,
 		StartLocation,
-		OutHitLocation,
+		HitLocation,
 		LaunchSpeed,
-		ESuggestProjVelocityTraceOption::DoNotTrace
+		false,
+		0,
+		0,
+		ESuggestProjVelocityTraceOption::DoNotTrace // Paramater must be present to prevent bug
 	);
 
-	if(bHaveAimSolution)
+	if (bHaveAimSolution)
 	{
-		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
-		UE_LOG(LogTemp, Warning, TEXT("Aiming at %s"), *AimDirection.ToString());
-
+		AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);
-		//Find Bar
 	}
-	//UE_LOG(LogTemp, Warning, TEXT("%s aiming at = %s from %s"), *OurTankName, *OutHitLocation.ToString(), *BarrelLocation.ToString());
+	// If no solution found do nothing
 }
 
 void UTankAimComponent::MoveBarrelTowards(FVector AimDirection)
 {
+	if (!ensure(Barrel)) { return; }
+
+	// Work-out difference between current barrel roation, and AimDirection
 	auto BarrelRotator = Barrel->GetForwardVector().Rotation();
 	auto AimAsRotator = AimDirection.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
-	UE_LOG(LogTemp, Warning, TEXT("AimAsRotator: %s"), *AimAsRotator.ToString());
-	//Get current barrel normal
-	//Get desired barrel normal
-	//Find Look at rotation
-	//Set Socket Rotation
 
-	Barrel->Elevate(1); //TODO REMOVE MAGIC NU<BER
+	// Always yaw the shortest way
+	Barrel->Elevate(DeltaRotator.Pitch);
 }
