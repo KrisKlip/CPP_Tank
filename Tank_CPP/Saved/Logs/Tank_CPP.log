@@ -23599,3 +23599,470 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.26-16.39.59:517][733]LogPlayLevel: Display: Shutting down PIE online subsystems
 [2019.01.26-16.39.59:518][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
 [2019.01.26-16.39.59:575][734]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.26-16.44.36:874][575]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -invalidatemakefilesonly
+[2019.01.26-16.44.37:885][575]Invalidating makefiles only in this run.
+[2019.01.26-16.44.38:012][575]Candidate modules for hot reload:
+[2019.01.26-16.44.38:013][575]  Tank_CPP
+[2019.01.26-16.44.38:013][575]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,2299 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-16.44.59:589][575]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 6:44:59 PM
+[2019.01.26-16.44.59:590][575]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-16.44.59:590][575]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (no existing makefile)
+[2019.01.26-16.44.59:591][575]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-16.44.59:591][575]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-16.44.59:592][575]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-16.44.59:592][575]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-16.44.59:593][575]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 12.6833904 seconds
+[2019.01.26-16.44.59:593][575]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.01.26-16.44.59:594][575]CompilerResultsLog:   [1/5] TankTurret.cpp
+[2019.01.26-16.44.59:594][575]CompilerResultsLog:   [2/5] Tank_CPP.init.gen.cpp
+[2019.01.26-16.44.59:594][575]CompilerResultsLog:   [3/5] TankTurret.gen.cpp
+[2019.01.26-16.44.59:594][575]CompilerResultsLog:   [4/5] UE4Editor-Tank_CPP-2299.lib
+[2019.01.26-16.44.59:595][575]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2299.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2299.exp
+[2019.01.26-16.44.59:596][575]CompilerResultsLog:   [5/5] UE4Editor-Tank_CPP-2299.dll
+[2019.01.26-16.44.59:596][575]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2299.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2299.suppressed.exp
+[2019.01.26-16.44.59:597][575]CompilerResultsLog: Total build time: 21.26 seconds (Parallel executor: 2.10 seconds)
+[2019.01.26-16.44.59:597][575]LogMainFrame: MainFrame: Module compiling took 21.588 seconds
+[2019.01.26-16.44.59:686][575]LogClass: Could not find existing class TankTurret in package /Script/Tank_CPP for HotReload, assuming new class
+[2019.01.26-16.44.59:694][575]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0008 seconds. Added 7 classes and 3 folders.
+[2019.01.26-16.44.59:701][575]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.01.26-16.45.00:100][575]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-16.45.00:101][575]Display: HotReload took 22.1s.
+[2019.01.26-16.45.00:103][575]Warning: HotReload operation took 22.1s.
+[2019.01.26-16.45.00:368][575]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.26-16.45.00:382][575]LogHotReload: New module detected: UE4Editor-Tank_CPP-2299.dll
+[2019.01.26-16.45.00:452][576]LogHotReload: Starting Hot-Reload from IDE
+[2019.01.26-16.45.00:569][576]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.01.26-16.45.00:574][576]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.26-16.45.00:967][576]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-16.45.00:971][576]Display: HotReload took  0.5s.
+[2019.01.26-16.46.05:411][ 20]LogAssetEditorManager: Opening Asset editor for Class /Script/Tank_CPP.Tank
+[2019.01.26-16.53.29:478][382]Candidate modules for hot reload:
+[2019.01.26-16.53.29:478][382]  Tank_CPP
+[2019.01.26-16.53.29:479][382]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,3324 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-16.53.29:485][382]Warning: Starting HotReload took  0.0s.
+[2019.01.26-16.53.55:835][828]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 6:53:55 PM
+[2019.01.26-16.53.55:836][828]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-16.53.55:837][828]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-16.53.55:837][828]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-16.53.55:837][828]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-16.53.55:838][828]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-16.53.55:838][828]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-16.53.55:839][828]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 14.133837 seconds
+[2019.01.26-16.53.55:839][828]CompilerResultsLog: Building 13 actions with 8 processes...
+[2019.01.26-16.53.55:839][828]CompilerResultsLog:   [1/13] Tank_CPP.init.gen.cpp
+[2019.01.26-16.53.55:840][828]CompilerResultsLog:   [2/13] TankAimComponent.gen.cpp
+[2019.01.26-16.53.55:840][828]CompilerResultsLog:   [3/13] TankPlayerController.gen.cpp
+[2019.01.26-16.53.55:840][828]CompilerResultsLog:   [4/13] Tank.gen.cpp
+[2019.01.26-16.53.55:841][828]CompilerResultsLog:   [5/13] TankTurret.gen.cpp
+[2019.01.26-16.53.55:841][828]CompilerResultsLog:   [6/13] TankAimComponent.cpp
+[2019.01.26-16.53.55:842][828]CompilerResultsLog:   [7/13] Tank.cpp
+[2019.01.26-16.53.55:842][828]CompilerResultsLog:   [8/13] TankPlayerController.cpp
+[2019.01.26-16.53.55:842][828]CompilerResultsLog:   [9/13] TankTurret.cpp
+[2019.01.26-16.53.55:842][828]CompilerResultsLog:   [10/13] TankAIController.cpp
+[2019.01.26-16.53.55:843][828]CompilerResultsLog:   [11/13] TankAIController.gen.cpp
+[2019.01.26-16.53.55:843][828]CompilerResultsLog:   [12/13] UE4Editor-Tank_CPP-3324.lib
+[2019.01.26-16.53.55:844][828]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3324.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3324.exp
+[2019.01.26-16.53.55:845][828]CompilerResultsLog:   [13/13] UE4Editor-Tank_CPP-3324.dll
+[2019.01.26-16.53.55:845][828]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3324.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3324.suppressed.exp
+[2019.01.26-16.53.55:845][828]CompilerResultsLog: Error:   Tank.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl UTankAimComponent::SetTurretReference(class UTankBarrel *)" (?SetTurretReference@UTankAimComponent@@QEAAXPEAVUTankBarrel@@@Z) referenced in function "public: void __cdecl ATank::SetTurretReference(class UTankBarrel *)" (?SetTurretReference@ATank@@QEAAXPEAVUTankBarrel@@@Z)
+[2019.01.26-16.53.55:846][828]CompilerResultsLog: Error:   C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3324.dll : fatal error LNK1120: 1 unresolved externals
+[2019.01.26-16.53.55:847][828]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-3324.dll
+[2019.01.26-16.53.55:847][828]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.26-16.53.55:847][828]CompilerResultsLog: Total build time: 25.96 seconds (Parallel executor: 0.00 seconds)
+[2019.01.26-16.53.55:848][828]LogMainFrame: MainFrame: Module compiling took 26.374 seconds
+[2019.01.26-16.53.55:848][828]Warning: HotReload failed, recompile failed
+[2019.01.26-17.00.15:407][572]Candidate modules for hot reload:
+[2019.01.26-17.00.15:407][572]  Tank_CPP
+[2019.01.26-17.00.15:408][572]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,9502 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.00.15:416][572]Warning: Starting HotReload took  0.1s.
+[2019.01.26-17.00.16:881][660]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-17.00.16:886][660]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-17.00.42:432][191]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:00:42 PM
+[2019.01.26-17.00.42:433][191]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.00.42:433][191]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.00.42:433][191]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.00.42:434][191]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.00.42:435][191]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-17.00.42:435][191]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-17.00.42:436][191]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 14.4790313 seconds
+[2019.01.26-17.00.42:437][191]CompilerResultsLog: Building 11 actions with 8 processes...
+[2019.01.26-17.00.42:438][191]CompilerResultsLog:   [1/11] Tank.cpp
+[2019.01.26-17.00.42:438][191]CompilerResultsLog:   [2/11] Tank_CPP.init.gen.cpp
+[2019.01.26-17.00.42:438][191]CompilerResultsLog:   [3/11] Tank.gen.cpp
+[2019.01.26-17.00.42:439][191]CompilerResultsLog:   [4/11] TankAimComponent.gen.cpp
+[2019.01.26-17.00.42:439][191]CompilerResultsLog:   [5/11] TankPlayerController.gen.cpp
+[2019.01.26-17.00.42:439][191]CompilerResultsLog:   [6/11] TankAimComponent.cpp
+[2019.01.26-17.00.42:439][191]CompilerResultsLog:   [7/11] TankPlayerController.cpp
+[2019.01.26-17.00.42:440][191]CompilerResultsLog:   [8/11] TankAIController.cpp
+[2019.01.26-17.00.42:440][191]CompilerResultsLog:   [9/11] TankAIController.gen.cpp
+[2019.01.26-17.00.42:440][191]CompilerResultsLog:   [10/11] UE4Editor-Tank_CPP-9502.lib
+[2019.01.26-17.00.42:440][191]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9502.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9502.exp
+[2019.01.26-17.00.42:441][191]CompilerResultsLog:   [11/11] UE4Editor-Tank_CPP-9502.dll
+[2019.01.26-17.00.42:441][191]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9502.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9502.suppressed.exp
+[2019.01.26-17.00.42:442][191]CompilerResultsLog: Total build time: 26.60 seconds (Parallel executor: 4.55 seconds)
+[2019.01.26-17.00.42:443][191]LogMainFrame: MainFrame: Module compiling took 27.039 seconds
+[2019.01.26-17.00.42:554][191]LogClass: Could not find existing class Tank in package /Script/Tank_CPP for HotReload, assuming new class
+[2019.01.26-17.00.42:555][191]LogClass: Function SetBarrelReference is new.
+[2019.01.26-17.00.42:555][191]LogClass: Function SetTurretReference is new.
+[2019.01.26-17.00.42:559][191]LogClass: Could not find existing class TankAimComponent in package /Script/Tank_CPP for HotReload, assuming new class
+[2019.01.26-17.00.42:568][191]LogClass: Could not find existing class TankTurret in package /Script/Tank_CPP for HotReload, assuming new class
+[2019.01.26-17.00.42:578][191]LogHotReload: Re-instancing Tank after hot-reload.
+[2019.01.26-17.00.42:928][191]LogHotReload: Re-instancing TankAimComponent after hot-reload.
+[2019.01.26-17.00.43:102][191]LogHotReload: Re-instancing TankTurret after hot-reload.
+[2019.01.26-17.00.43:267][191]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2019.01.26-17.00.43:272][191]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.26-17.00.43:668][191]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-17.00.43:668][191]Display: HotReload took 28.3s.
+[2019.01.26-17.15.25:098][737]Candidate modules for hot reload:
+[2019.01.26-17.15.25:098][737]  Tank_CPP
+[2019.01.26-17.15.25:099][737]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,8907 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.15.25:111][737]Warning: Starting HotReload took  0.0s.
+[2019.01.26-17.15.47:643][924]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:15:47 PM
+[2019.01.26-17.15.47:644][924]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.15.47:644][924]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.15.47:644][924]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.15.47:645][924]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.15.47:645][924]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-17.15.47:646][924]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-17.15.47:648][924]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 11.1082654 seconds
+[2019.01.26-17.15.47:648][924]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.01.26-17.15.47:648][924]CompilerResultsLog:   [1/10] Tank.gen.cpp
+[2019.01.26-17.15.47:648][924]CompilerResultsLog:   [2/10] TankPlayerController.cpp
+[2019.01.26-17.15.47:648][924]CompilerResultsLog:   [3/10] Tank.cpp
+[2019.01.26-17.15.47:648][924]CompilerResultsLog:   [4/10] TankPlayerController.gen.cpp
+[2019.01.26-17.15.47:648][924]CompilerResultsLog:   [5/10] TankAimComponent.gen.cpp
+[2019.01.26-17.15.47:649][924]CompilerResultsLog:   [6/10] TankAimComponent.cpp
+[2019.01.26-17.15.47:649][924]CompilerResultsLog:   [7/10] TankAIController.cpp
+[2019.01.26-17.15.47:650][924]CompilerResultsLog:   [8/10] TankAIController.gen.cpp
+[2019.01.26-17.15.47:650][924]CompilerResultsLog:   [9/10] UE4Editor-Tank_CPP-8907.lib
+[2019.01.26-17.15.47:651][924]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8907.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8907.exp
+[2019.01.26-17.15.47:651][924]CompilerResultsLog:   [10/10] UE4Editor-Tank_CPP-8907.dll
+[2019.01.26-17.15.47:652][924]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8907.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8907.suppressed.exp
+[2019.01.26-17.15.47:653][924]CompilerResultsLog: Total build time: 21.84 seconds (Parallel executor: 3.46 seconds)
+[2019.01.26-17.15.47:653][924]LogMainFrame: MainFrame: Module compiling took 22.559 seconds
+[2019.01.26-17.15.47:805][924]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0008 seconds. Added 7 classes and 3 folders.
+[2019.01.26-17.15.47:812][924]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-17.15.48:233][924]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-17.15.48:234][924]Display: HotReload took 23.1s.
+[2019.01.26-17.17.52:804][302]Candidate modules for hot reload:
+[2019.01.26-17.17.52:804][302]  Tank_CPP
+[2019.01.26-17.17.52:805][302]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,1253 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.17.52:814][302]Warning: Starting HotReload took  0.0s.
+[2019.01.26-17.18.01:300][812]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:18:01 PM
+[2019.01.26-17.18.01:301][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.18.01:301][812]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.18.01:302][812]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.18.01:302][812]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.18.01:303][812]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.26-17.18.01:303][812]CompilerResultsLog:   [1/3] TankAimComponent.cpp
+[2019.01.26-17.18.01:303][812]CompilerResultsLog:    C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private\TankAimComponent.cpp(70) : error C2027: use of undefined type 'UTankTurret'
+[2019.01.26-17.18.01:304][812]CompilerResultsLog:   C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Public/TankAimComponent.h(11): note: see declaration of 'UTankTurret'
+[2019.01.26-17.18.01:305][812]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Binaries\Win64\UE4Editor-Tank_CPP-1253.dll
+[2019.01.26-17.18.01:305][812]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.01.26-17.18.01:306][812]CompilerResultsLog: Total build time: 8.12 seconds (Parallel executor: 0.00 seconds)
+[2019.01.26-17.18.01:307][812]LogMainFrame: MainFrame: Module compiling took 8.507 seconds
+[2019.01.26-17.18.01:308][812]Warning: HotReload failed, recompile failed
+[2019.01.26-17.18.08:547][239]LogVSAccessor: Warning: Couldn't goto line number '70' in 'C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Source\Tank_CPP\Private\TankAimComponent.cpp'
+[2019.01.26-17.21.21:199][915]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-17.21.21:207][915]LogSlate: Window 'Message Log' being destroyed
+[2019.01.26-17.24.10:735][175]Candidate modules for hot reload:
+[2019.01.26-17.24.10:736][175]  Tank_CPP
+[2019.01.26-17.24.10:736][175]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,7903 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.24.10:742][175]Warning: Starting HotReload took  0.0s.
+[2019.01.26-17.24.33:844][532]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:24:33 PM
+[2019.01.26-17.24.33:844][532]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.24.33:845][532]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.24.33:845][532]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.24.33:846][532]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.24.33:846][532]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-17.24.33:847][532]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-17.24.33:847][532]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 11.6988665 seconds
+[2019.01.26-17.24.33:848][532]CompilerResultsLog: Building 10 actions with 8 processes...
+[2019.01.26-17.24.33:848][532]CompilerResultsLog:   [1/10] TankPlayerController.cpp
+[2019.01.26-17.24.33:849][532]CompilerResultsLog:   [2/10] Tank.cpp
+[2019.01.26-17.24.33:849][532]CompilerResultsLog:   [3/10] TankAimComponent.gen.cpp
+[2019.01.26-17.24.33:849][532]CompilerResultsLog:   [4/10] Tank.gen.cpp
+[2019.01.26-17.24.33:850][532]CompilerResultsLog:   [5/10] TankPlayerController.gen.cpp
+[2019.01.26-17.24.33:850][532]CompilerResultsLog:   [6/10] TankAimComponent.cpp
+[2019.01.26-17.24.33:850][532]CompilerResultsLog:   [7/10] TankAIController.cpp
+[2019.01.26-17.24.33:851][532]CompilerResultsLog:   [8/10] TankAIController.gen.cpp
+[2019.01.26-17.24.33:852][532]CompilerResultsLog:   [9/10] UE4Editor-Tank_CPP-7903.lib
+[2019.01.26-17.24.33:852][532]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-7903.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-7903.exp
+[2019.01.26-17.24.33:853][532]CompilerResultsLog:   [10/10] UE4Editor-Tank_CPP-7903.dll
+[2019.01.26-17.24.33:854][532]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-7903.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-7903.suppressed.exp
+[2019.01.26-17.24.33:854][532]CompilerResultsLog: Total build time: 22.42 seconds (Parallel executor: 3.51 seconds)
+[2019.01.26-17.24.33:855][532]LogMainFrame: MainFrame: Module compiling took 23.125 seconds
+[2019.01.26-17.24.33:992][532]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.01.26-17.24.33:998][532]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-17.24.34:432][532]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-17.24.34:432][532]Display: HotReload took 23.7s.
+[2019.01.26-17.26.42:088][915]Candidate modules for hot reload:
+[2019.01.26-17.26.42:088][915]  Tank_CPP
+[2019.01.26-17.26.42:089][915]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,8842 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.26.42:094][915]Warning: Starting HotReload took  0.0s.
+[2019.01.26-17.26.52:065][514]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:26:52 PM
+[2019.01.26-17.26.52:065][514]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.26.52:065][514]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.26.52:066][514]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.26.52:066][514]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.26.52:067][514]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.26-17.26.52:067][514]CompilerResultsLog:   [1/3] TankAimComponent.cpp
+[2019.01.26-17.26.52:067][514]CompilerResultsLog:   [2/3] UE4Editor-Tank_CPP-8842.lib
+[2019.01.26-17.26.52:067][514]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8842.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8842.exp
+[2019.01.26-17.26.52:068][514]CompilerResultsLog:   [3/3] UE4Editor-Tank_CPP-8842.dll
+[2019.01.26-17.26.52:069][514]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8842.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-8842.suppressed.exp
+[2019.01.26-17.26.52:069][514]CompilerResultsLog: Total build time: 9.60 seconds (Parallel executor: 2.89 seconds)
+[2019.01.26-17.26.52:070][514]LogMainFrame: MainFrame: Module compiling took 9.985 seconds
+[2019.01.26-17.26.52:204][514]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2019.01.26-17.26.52:210][514]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-17.26.52:634][514]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-17.26.52:635][514]Display: HotReload took 10.6s.
+[2019.01.26-17.26.55:048][658]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-17.26.55:081][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-17.26.55:083][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-17.26.55:083][658]PIE: New page: PIE session: Battleground (Jan 26, 2019, 7:26:55 PM)
+[2019.01.26-17.26.55:084][658]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Battleground
+[2019.01.26-17.26.55:209][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124037s)
+[2019.01.26-17.26.55:212][658]LogAIModule: Creating AISystem for world Battleground
+[2019.01.26-17.26.55:213][658]LogPlayLevel: PIE: World Init took: (0.003255s)
+[2019.01.26-17.26.55:213][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Battleground.Battleground to /Game/UEDPIE_0_Battleground.Battleground (0.128898s)
+[2019.01.26-17.26.55:304][658]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-17.26.55:327][658]LogInit: FAudioDevice initialized.
+[2019.01.26-17.26.55:391][658]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.26-17.26.55:398][658]LogWorld: Bringing World /Game/UEDPIE_0_Battleground.Battleground up for play (max tick rate 60) at 2019.01.26-18.26.55
+[2019.01.26-17.26.55:399][658]LogWorld: Bringing up level for play took: 0.005065
+[2019.01.26-17.26.55:416][658]LogTemp: Warning: Player Controller Begin Play
+[2019.01.26-17.26.55:417][658]LogTemp: Warning: Possesing Tank_BP_C_0
+[2019.01.26-17.26.55:418][658]PIE: Play in editor start time for /Game/UEDPIE_0_Battleground 0.37
+[2019.01.26-17.26.55:418][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-17.27.03:073][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-17.27.03:075][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.27.03:120][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-17.27.03:121][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-17.27.03:164][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-17.27.03:208][117]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.26-17.27.05:429][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-17.32.29:699][892]Candidate modules for hot reload:
+[2019.01.26-17.32.29:699][892]  Tank_CPP
+[2019.01.26-17.32.29:699][892]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,2379 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-17.32.29:706][892]Warning: Starting HotReload took  0.0s.
+[2019.01.26-17.32.55:148][419]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 7:32:55 PM
+[2019.01.26-17.32.55:148][419]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-17.32.55:149][419]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-17.32.55:149][419]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-17.32.55:149][419]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-17.32.55:150][419]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-17.32.55:150][419]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-17.32.55:151][419]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 14.642172 seconds
+[2019.01.26-17.32.55:151][419]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.01.26-17.32.55:151][419]CompilerResultsLog:   [1/6] TankTurret.cpp
+[2019.01.26-17.32.55:151][419]CompilerResultsLog:   [2/6] Tank_CPP.init.gen.cpp
+[2019.01.26-17.32.55:152][419]CompilerResultsLog:   [3/6] TankTurret.gen.cpp
+[2019.01.26-17.32.55:152][419]CompilerResultsLog:   [4/6] TankAimComponent.cpp
+[2019.01.26-17.32.55:152][419]CompilerResultsLog:   [5/6] UE4Editor-Tank_CPP-2379.lib
+[2019.01.26-17.32.55:153][419]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2379.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2379.exp
+[2019.01.26-17.32.55:154][419]CompilerResultsLog:   [6/6] UE4Editor-Tank_CPP-2379.dll
+[2019.01.26-17.32.55:155][419]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2379.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-2379.suppressed.exp
+[2019.01.26-17.32.55:156][419]CompilerResultsLog: Total build time: 25.06 seconds (Parallel executor: 2.93 seconds)
+[2019.01.26-17.32.55:157][419]LogMainFrame: MainFrame: Module compiling took 25.462 seconds
+[2019.01.26-17.32.55:260][419]LogClass: Could not find existing class TankTurret in package /Script/Tank_CPP for HotReload, assuming new class
+[2019.01.26-17.32.55:272][419]LogHotReload: Re-instancing TankTurret after hot-reload.
+[2019.01.26-17.32.55:433][419]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0006 seconds. Added 7 classes and 3 folders.
+[2019.01.26-17.32.55:439][419]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-17.32.55:823][419]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-17.32.55:823][419]Display: HotReload took 26.1s.
+[2019.01.26-17.41.23:361][862]LogHttp: Warning: 000001B239CA82C0: request failed, libcurl error: 28 (Timeout was reached)
+[2019.01.26-17.41.23:361][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 0 (Connection 50 seems to be dead!)
+[2019.01.26-17.41.23:362][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 1 (Closing connection 50)
+[2019.01.26-17.41.23:362][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.01.26-17.41.23:362][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 3 (  Trying 23.20.51.18...)
+[2019.01.26-17.41.23:363][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.01.26-17.41.23:363][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (23.20.51.18) port 443 (#51))
+[2019.01.26-17.41.23:363][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2019.01.26-17.41.23:364][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2019.01.26-17.41.23:364][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 8 (SSL re-using session ID)
+[2019.01.26-17.41.23:364][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 9 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2019.01.26-17.41.23:364][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 10 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2019.01.26-17.41.23:365][862]LogHttp: Warning: 000001B239CA82C0: libcurl info message cache 11 (Closing connection 51)
+[2019.01.26-17.41.23:377][863]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD6125F4C-4D7E-19AD-BDCC-4BB8B1848F7E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=90da13e94d867c1af74dc3b5bf5b2c63%7C6a44ddbb288c413e969ecaefe62c9533%7C1ff00625-3a03-4eec-ae9f-35e9507164ce&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.01.26-18.47.57:053][414]LogEditorTransaction: Undo Make New Scene Root
+[2019.01.26-18.48.38:946][892]LogRenderer: Reallocating scene render targets to support 1204x724 Format 9 NumSamples 1 (Frame:1).
+[2019.01.26-18.49.15:148][ 50]BlueprintLog: New page: Compile Tank_BP
+[2019.01.26-18.49.16:128][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.01.26-18.49.16:209][ 84]LogSavePackage: Moving '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Saved/Tank_BPBFDF3EB249C6CDBD86002FB64C753CD4.tmp' to '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Tank/Tank_BP.uasset'
+[2019.01.26-18.49.32:179][ 30]BlueprintLog: New page: Compile Tank_BP
+[2019.01.26-18.49.33:087][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.01.26-18.49.33:142][ 64]LogSavePackage: Moving '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Saved/Tank_BP511E799242D3F195254DB097DF4EB905.tmp' to '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Tank/Tank_BP.uasset'
+[2019.01.26-18.49.34:340][135]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.49.34:368][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.49.34:369][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.49.34:370][135]PIE: New page: PIE session: Battleground (Jan 26, 2019, 8:49:34 PM)
+[2019.01.26-18.49.34:370][135]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Battleground
+[2019.01.26-18.49.34:467][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095787s)
+[2019.01.26-18.49.34:469][135]LogAIModule: Creating AISystem for world Battleground
+[2019.01.26-18.49.34:469][135]LogPlayLevel: PIE: World Init took: (0.001745s)
+[2019.01.26-18.49.34:470][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Battleground.Battleground to /Game/UEDPIE_0_Battleground.Battleground (0.099220s)
+[2019.01.26-18.49.34:512][135]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.49.34:534][135]LogInit: FAudioDevice initialized.
+[2019.01.26-18.49.34:544][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.49.34:589][135]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.26-18.49.34:594][135]LogWorld: Bringing World /Game/UEDPIE_0_Battleground.Battleground up for play (max tick rate 60) at 2019.01.26-19.49.34
+[2019.01.26-18.49.34:595][135]LogWorld: Bringing up level for play took: 0.003870
+[2019.01.26-18.49.34:610][135]LogTemp: Warning: Player Controller Begin Play
+[2019.01.26-18.49.34:611][135]LogTemp: Warning: Possesing Tank_BP_C_0
+[2019.01.26-18.49.34:614][135]PIE: Play in editor start time for /Game/UEDPIE_0_Battleground -0.433
+[2019.01.26-18.49.34:615][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.49.46:416][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.49.46:418][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.49.46:438][838]LogSlate: Window 'Tank_CPP Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.26-18.49.46:484][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.49.46:485][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.49.46:558][839]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.26-18.51.28:747][118]Candidate modules for hot reload:
+[2019.01.26-18.51.28:747][118]  Tank_CPP
+[2019.01.26-18.51.28:748][118]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,9670 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-18.51.28:757][118]Warning: Starting HotReload took  0.0s.
+[2019.01.26-18.51.55:023][690]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 8:51:55 PM
+[2019.01.26-18.51.55:025][690]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-18.51.55:025][690]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-18.51.55:025][690]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-18.51.55:026][690]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-18.51.55:026][690]CompilerResultsLog: Parsing headers for Tank_CPPEditor
+[2019.01.26-18.51.55:027][690]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Tank_CPP.uproject" "C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\Tank_CPPEditor\Development\Tank_CPPEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.26-18.51.55:028][690]CompilerResultsLog: Reflection code generated for Tank_CPPEditor in 14.7253104 seconds
+[2019.01.26-18.51.55:029][690]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.01.26-18.51.55:029][690]CompilerResultsLog:   [1/5] TankTurret.cpp
+[2019.01.26-18.51.55:029][690]CompilerResultsLog:   [2/5] TankTurret.gen.cpp
+[2019.01.26-18.51.55:030][690]CompilerResultsLog:   [3/5] TankAimComponent.cpp
+[2019.01.26-18.51.55:030][690]CompilerResultsLog:   [4/5] UE4Editor-Tank_CPP-9670.lib
+[2019.01.26-18.51.55:030][690]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9670.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9670.exp
+[2019.01.26-18.51.55:031][690]CompilerResultsLog:   [5/5] UE4Editor-Tank_CPP-9670.dll
+[2019.01.26-18.51.55:031][690]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9670.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-9670.suppressed.exp
+[2019.01.26-18.51.55:032][690]CompilerResultsLog: Total build time: 25.85 seconds (Parallel executor: 3.03 seconds)
+[2019.01.26-18.51.55:033][690]LogMainFrame: MainFrame: Module compiling took 26.290 seconds
+[2019.01.26-18.51.55:149][690]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.01.26-18.51.55:154][690]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-18.51.55:545][690]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-18.51.55:546][690]Display: HotReload took 26.8s.
+[2019.01.26-18.51.58:989][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.51.59:018][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.51.59:018][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.51.59:019][896]PIE: New page: PIE session: Battleground (Jan 26, 2019, 8:51:59 PM)
+[2019.01.26-18.51.59:020][896]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Battleground
+[2019.01.26-18.51.59:134][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113611s)
+[2019.01.26-18.51.59:135][896]LogAIModule: Creating AISystem for world Battleground
+[2019.01.26-18.51.59:136][896]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2019.01.26-18.51.59:136][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Battleground.Battleground to /Game/UEDPIE_0_Battleground.Battleground (0.116156s)
+[2019.01.26-18.51.59:218][896]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.51.59:238][896]LogInit: FAudioDevice initialized.
+[2019.01.26-18.51.59:288][896]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.26-18.51.59:297][896]LogWorld: Bringing World /Game/UEDPIE_0_Battleground.Battleground up for play (max tick rate 60) at 2019.01.26-19.51.59
+[2019.01.26-18.51.59:298][896]LogWorld: Bringing up level for play took: 0.007428
+[2019.01.26-18.51.59:318][896]LogTemp: Warning: Player Controller Begin Play
+[2019.01.26-18.51.59:319][896]LogTemp: Warning: Possesing Tank_BP_C_0
+[2019.01.26-18.51.59:320][896]PIE: Play in editor start time for /Game/UEDPIE_0_Battleground 0.272
+[2019.01.26-18.51.59:321][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.52.08:064][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.52.08:065][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.08:111][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.52.08:112][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.52.08:153][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.52.08:201][421]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.26-18.54.47:952][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.54.48:255][989]Candidate modules for hot reload:
+[2019.01.26-18.54.48:255][989]  Tank_CPP
+[2019.01.26-18.54.48:255][989]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,3429 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-18.54.48:260][989]Warning: Starting HotReload took  0.0s.
+[2019.01.26-18.54.58:297][590]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 8:54:58 PM
+[2019.01.26-18.54.58:298][590]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-18.54.58:298][590]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-18.54.58:299][590]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-18.54.58:299][590]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-18.54.58:300][590]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.26-18.54.58:300][590]CompilerResultsLog:   [1/3] TankAimComponent.cpp
+[2019.01.26-18.54.58:300][590]CompilerResultsLog:   [2/3] UE4Editor-Tank_CPP-3429.lib
+[2019.01.26-18.54.58:300][590]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3429.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3429.exp
+[2019.01.26-18.54.58:301][590]CompilerResultsLog:   [3/3] UE4Editor-Tank_CPP-3429.dll
+[2019.01.26-18.54.58:301][590]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3429.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-3429.suppressed.exp
+[2019.01.26-18.54.58:302][590]CompilerResultsLog: Total build time: 9.67 seconds (Parallel executor: 2.90 seconds)
+[2019.01.26-18.54.58:302][590]LogMainFrame: MainFrame: Module compiling took 10.052 seconds
+[2019.01.26-18.54.58:405][590]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.01.26-18.54.58:410][590]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-18.54.58:806][590]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-18.54.58:807][590]Display: HotReload took 10.6s.
+[2019.01.26-18.55.00:247][676]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.55.00:271][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.55.00:272][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.55.00:272][676]PIE: New page: PIE session: Battleground (Jan 26, 2019, 8:55:00 PM)
+[2019.01.26-18.55.00:273][676]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Battleground
+[2019.01.26-18.55.00:371][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097409s)
+[2019.01.26-18.55.00:372][676]LogAIModule: Creating AISystem for world Battleground
+[2019.01.26-18.55.00:372][676]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2019.01.26-18.55.00:373][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Battleground.Battleground to /Game/UEDPIE_0_Battleground.Battleground (0.099880s)
+[2019.01.26-18.55.00:454][676]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.55.00:474][676]LogInit: FAudioDevice initialized.
+[2019.01.26-18.55.00:518][676]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.26-18.55.00:522][676]LogWorld: Bringing World /Game/UEDPIE_0_Battleground.Battleground up for play (max tick rate 60) at 2019.01.26-19.55.00
+[2019.01.26-18.55.00:522][676]LogWorld: Bringing up level for play took: 0.002953
+[2019.01.26-18.55.00:539][676]LogTemp: Warning: Player Controller Begin Play
+[2019.01.26-18.55.00:539][676]LogTemp: Warning: Possesing Tank_BP_C_0
+[2019.01.26-18.55.00:540][676]PIE: Play in editor start time for /Game/UEDPIE_0_Battleground -0.508
+[2019.01.26-18.55.00:541][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.55.30:424][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.55.30:425][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.55.30:470][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.55.30:471][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.55.30:523][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.55.30:562][465]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.26-18.56.59:454][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-18.56.59:601][140]Candidate modules for hot reload:
+[2019.01.26-18.56.59:602][140]  Tank_CPP
+[2019.01.26-18.56.59:602][140]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tank_CPP,4997 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" -canskiplink "C:/Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Tank_CPP.uproject" ]
+[2019.01.26-18.56.59:608][140]Warning: Starting HotReload took  0.0s.
+[2019.01.26-18.57.09:842][755]CompilerResultsLog: New page: Compilation - Jan 26, 2019, 8:57:09 PM
+[2019.01.26-18.57.09:843][755]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Kristof\Documents\GitHub\CPP_Tank).
+[2019.01.26-18.57.09:844][755]CompilerResultsLog: Creating makefile for hot reloading Tank_CPPEditor (source directory changed)
+[2019.01.26-18.57.09:844][755]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.26-18.57.09:844][755]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.26-18.57.09:845][755]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.26-18.57.09:845][755]CompilerResultsLog:   [1/3] TankAimComponent.cpp
+[2019.01.26-18.57.09:845][755]CompilerResultsLog:   [2/3] UE4Editor-Tank_CPP-4997.lib
+[2019.01.26-18.57.09:845][755]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-4997.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-4997.exp
+[2019.01.26-18.57.09:846][755]CompilerResultsLog:   [3/3] UE4Editor-Tank_CPP-4997.dll
+[2019.01.26-18.57.09:846][755]CompilerResultsLog:      Creating library C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-4997.suppressed.lib and object C:\Users\Kristof\Documents\GitHub\CPP_Tank\Tank_CPP\Intermediate\Build\Win64\UE4Editor\Development\Tank_CPP\UE4Editor-Tank_CPP-4997.suppressed.exp
+[2019.01.26-18.57.09:847][755]CompilerResultsLog: Total build time: 9.87 seconds (Parallel executor: 2.83 seconds)
+[2019.01.26-18.57.09:848][755]LogMainFrame: MainFrame: Module compiling took 10.250 seconds
+[2019.01.26-18.57.09:946][755]LogContentBrowser: Native class hierarchy updated for 'Tank_CPP' in 0.0005 seconds. Added 7 classes and 3 folders.
+[2019.01.26-18.57.09:950][755]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.01.26-18.57.10:355][755]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2659 classes and 625 folders.
+[2019.01.26-18.57.10:356][755]Display: HotReload took 10.8s.
+[2019.01.26-18.57.12:368][875]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-18.57.12:395][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.57.12:397][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-18.57.12:398][875]PIE: New page: PIE session: Battleground (Jan 26, 2019, 8:57:12 PM)
+[2019.01.26-18.57.12:398][875]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Battleground
+[2019.01.26-18.57.12:497][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097581s)
+[2019.01.26-18.57.12:498][875]LogAIModule: Creating AISystem for world Battleground
+[2019.01.26-18.57.12:498][875]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2019.01.26-18.57.12:499][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Battleground.Battleground to /Game/UEDPIE_0_Battleground.Battleground (0.100337s)
+[2019.01.26-18.57.12:572][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-18.57.12:596][875]LogInit: FAudioDevice initialized.
+[2019.01.26-18.57.12:640][875]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2019.01.26-18.57.12:643][875]LogWorld: Bringing World /Game/UEDPIE_0_Battleground.Battleground up for play (max tick rate 60) at 2019.01.26-19.57.12
+[2019.01.26-18.57.12:644][875]LogWorld: Bringing up level for play took: 0.002753
+[2019.01.26-18.57.12:660][875]LogTemp: Warning: Player Controller Begin Play
+[2019.01.26-18.57.12:660][875]LogTemp: Warning: Possesing Tank_BP_C_0
+[2019.01.26-18.57.12:661][875]PIE: Play in editor start time for /Game/UEDPIE_0_Battleground -0.386
+[2019.01.26-18.57.12:662][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.58.15:451][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.58.15:452][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.58.15:500][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-18.58.15:501][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Battleground.Battleground:PersistentLevel' has LevelScriptBlueprint '/Game/Battleground.Battleground:PersistentLevel.Battleground' with GeneratedClass '/Game/Battleground.Battleground_C' with ClassGeneratedBy '/Game/Battleground.Battleground:PersistentLevel.Battleground'
+[2019.01.26-18.58.15:546][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-18.58.15:576][640]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.26-18.58.26:493][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.58.27:823][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.26-18.58.27:841][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Battleground" FILE="../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Battleground.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.26-18.58.28:912][ 99]LogSavePackage: Moving '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Saved/BattlegroundC98305004B6267AF7D5FEFA3EB12C865.tmp' to '../../../../../../Users/Kristof/Documents/GitHub/CPP_Tank/Tank_CPP/Content/Battleground.umap'
+[2019.01.26-18.58.28:958][ 99]LogFileHelpers: Saving map 'Battleground' took 1.118
+[2019.01.26-19.08.27:991][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Battleground' took 0.041
